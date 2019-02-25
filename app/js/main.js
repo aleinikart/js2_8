@@ -1,7 +1,8 @@
 $(document).ready(() => {
-    describe('Проверка на целое число', () => {
-        let revCheck = new Reviews('js/feedback.json');
-        it('Это челое число', async () => {
+    let revCheck = new Reviews('js/feedback.json');
+    describe('Проверка на текст в отзыве', () => {
+
+        it('В отзыве - не только цифры', async () => {
             for (let revitem of revCheck.revItems){
                 expect(revitem.text).toMatch(/\D/ig);
             }

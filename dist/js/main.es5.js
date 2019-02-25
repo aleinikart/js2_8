@@ -5,9 +5,8 @@ function asyncGeneratorStep(gen, resolve, reject, _next, _throw, key, arg) { try
 function _asyncToGenerator(fn) { return function () { var self = this, args = arguments; return new Promise(function (resolve, reject) { var gen = fn.apply(self, args); function _next(value) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "next", value); } function _throw(err) { asyncGeneratorStep(gen, resolve, reject, _next, _throw, "throw", err); } _next(undefined); }); }; }
 
 $(document).ready(function () {
-  // let reviews = new Reviews('js/feedback.json');
+  var revCheck = new Reviews('js/feedback.json');
   describe('Проверка на целое число', function () {
-    var revCheck = new Reviews('js/feedback.json');
     it('Это челое число',
     /*#__PURE__*/
     _asyncToGenerator(
@@ -26,7 +25,7 @@ $(document).ready(function () {
 
               for (_iterator = revCheck.revItems[Symbol.iterator](); !(_iteratorNormalCompletion = (_step = _iterator.next()).done); _iteratorNormalCompletion = true) {
                 revitem = _step.value;
-                expect(revitem.id).toEqual(Math.round(revitem.id));
+                expect(revitem.text).toMatch(/\D/ig);
               }
 
               _context.next = 11;

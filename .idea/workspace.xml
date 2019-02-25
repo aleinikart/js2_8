@@ -2,9 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b545825-7a5c-4bc6-a0e2-f6d1d9578032" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/app/js/boot.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/jasmine-html.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/js/jasmine.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/app/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/libs.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/css/main.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/keyboard.jpeg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/mouse.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/img/notebook.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/Reviews.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/Reviews.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/boot.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/boot.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/feedback.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jasmine-html.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jasmine-html.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jasmine.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jasmine.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-3.3.1.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/jquery-3.3.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/main.es5.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist/js/main.min.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -17,8 +35,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="75">
-              <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+            <state relative-caret-position="150">
+              <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -26,8 +44,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/js/Reviews.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="645">
-              <caret line="43" selection-start-line="43" selection-end-line="43" />
+            <state relative-caret-position="56">
+              <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -36,7 +54,7 @@
         <entry file="file://$PROJECT_DIR$/gulpfile.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1875">
-              <caret line="125" column="14" lean-forward="true" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
+              <caret line="125" column="14" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
             </state>
           </provider>
         </entry>
@@ -62,9 +80,9 @@
         <option value="$PROJECT_DIR$/app/pug/index.pug" />
         <option value="$PROJECT_DIR$/app/sass/main.scss" />
         <option value="$PROJECT_DIR$/app/html/index.html" />
-        <option value="$PROJECT_DIR$/app/js/Reviews.js" />
         <option value="$PROJECT_DIR$/gulpfile.js" />
         <option value="$PROJECT_DIR$/app/js/feedback.json" />
+        <option value="$PROJECT_DIR$/app/js/Reviews.js" />
         <option value="$PROJECT_DIR$/app/js/main.js" />
       </list>
     </option>
@@ -109,17 +127,6 @@
               <item name="js2_8" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="sass" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js2_8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js2_8" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="js2_8" type="b2602c69:ProjectViewProjectNode" />
-              <item name="js2_8" type="462c0819:PsiDirectoryNode" />
-              <item name="dist" type="462c0819:PsiDirectoryNode" />
-              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -172,12 +179,12 @@
       <workItem from="1551009468147" duration="1775000" />
       <workItem from="1551014380392" duration="5203000" />
       <workItem from="1551038230706" duration="12000" />
-      <workItem from="1551115676597" duration="5496000" />
+      <workItem from="1551115676597" duration="6007000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14216000" />
+    <option name="totallyTimeSpent" value="14727000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="1280" height="705" extended-state="6" />
@@ -283,14 +290,7 @@
     <entry file="file://$PROJECT_DIR$/gulpfile.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1875">
-          <caret line="125" column="14" lean-forward="true" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/js/Reviews.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="645">
-          <caret line="43" selection-start-line="43" selection-end-line="43" />
+          <caret line="125" column="14" selection-start-line="125" selection-start-column="14" selection-end-line="125" selection-end-column="14" />
         </state>
       </provider>
     </entry>
@@ -301,10 +301,17 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/app/js/Reviews.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="11" column="4" selection-start-line="11" selection-start-column="4" selection-end-line="11" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/app/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="48" selection-start-line="5" selection-start-column="48" selection-end-line="5" selection-end-column="48" />
+        <state relative-caret-position="150">
+          <caret line="10" column="7" lean-forward="true" selection-start-line="10" selection-start-column="7" selection-end-line="10" selection-end-column="7" />
         </state>
       </provider>
     </entry>
