@@ -1,0 +1,102 @@
+
+
+form{
+  margin-top: 30px;
+  max-width: 300px;
+  box-sizing: border-box;
+  padding: 15px;
+  background-color: #ccc;
+  input, textarea{
+    outline: none;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 10px;
+    max-width: 300px;
+    border: 1px solid #666;
+    margin-bottom: 20px;
+  }
+  .caption{
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+  button{
+    -webkit-appearance: none;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background: #666;
+    color: #fff;
+  }
+}
+
+
+#revblock{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-content: stretch;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  .revitem{
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #999;
+    padding: 15px 15px 50px;
+    display: flex;
+    flex: 0 0 200px;
+    flex-direction: column;
+
+    .revid{
+      font-size: 12px;
+      color: #666;
+      display: block;
+      margin-bottom: 20px;
+    }
+    [data-approve]{
+      position: absolute;
+      bottom: 15px;
+      left: 15px;
+      width: 20px;
+      opacity: 1;
+      transition: all 0.3s ease;
+      svg{
+        width: 20px;
+        height: 20px;
+      }
+    }
+    [data-approve="false"]{
+      cursor: pointer;
+    }
+    [data-delete]{
+      position: absolute;
+      bottom: 15px;
+      right: 15px;
+      cursor: pointer;
+      width: 15px;
+      opacity: 1;
+      transition: all 0.3s ease;
+      svg{
+        width: 15px;
+        height: 15px;
+        use{
+          fill: #333;
+        }
+      }
+    }
+    [data-approve="false"] svg use{
+      fill: #ccc;
+    }
+    [data-approve="true"] svg use{
+      fill: #008000;
+    }
+    [data-delete], [data-approve="false"]{
+      &:hover,
+      &:focus{
+        opacity: 0.7;
+      }
+    }
+
+  }
+
+}
+
